@@ -3,7 +3,7 @@
   --muted: #566562;
   --line: #dde6e4;
   --mist: #f3f8f7;
-  --accent: #1f8f87; /* teal de la landing: cambia este valor para cambiar el color */
+  --accent: #1f8f87; 
   --deep: #0f4f4b;
   --pad: clamp(20px, 5vw, 72px);
 }
@@ -57,7 +57,7 @@ h1, h2, h3 { font-family: "Bricolage Grotesque", "DM Sans", sans-serif; letter-s
 .step .n { margin: 0; background: var(--accent); color: #fff; }
 
 .controls { display: flex; flex-wrap: wrap; gap: 16px; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--line); margin: 24px 0 32px; }
-.tabs { display: flex; gap: 26px; overflow-x: auto; }
+.tabs { display: flex; gap: 26px; overflow-x: auto; overflow-y: hidden; }
 .tab { background: none; border: 0; border-bottom: 2px solid transparent; margin-bottom: -1px; padding: 12px 0; font: inherit; color: var(--muted); cursor: pointer; white-space: nowrap; }
 .tab:hover { color: var(--ink); }
 .tab.active { color: var(--accent); border-bottom-color: var(--accent); font-weight: 500; }

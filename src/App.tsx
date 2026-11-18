@@ -4,7 +4,7 @@ import Catalog from "./pages/Catalog";
 import ResourceDetail from "./pages/ResourceDetail";
 import Premium from "./pages/Premium";
 
-// Navegación simple con "#/ruta" (no necesita instalar nada extra)
+
 function useRoute(): string {
   const read = () => window.location.hash.replace(/^#\/?/, "");
   const [route, setRoute] = useState(read);
@@ -44,7 +44,7 @@ export default function App() {
         <a className="btn small" href="#/premium">Lista de espera</a>
       </header>
       <main>{page}</main>
-      <footer className="wrap foot">Demo del proyecto en proceso.</footer>
+      <footer className="wrap foot">Demo del proyecto en proceso zopa me olvide preguntarte el nombre del proyecto que decidieron XD por fa agreguenlo.</footer>
     </>
   );
 }

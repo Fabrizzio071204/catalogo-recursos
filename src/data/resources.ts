@@ -1,5 +1,4 @@
-// Para agregar un recurso, copia un bloque, cambia el id y los textos.
-// Todo el contenido es de ejemplo: reemplázalo por el real.
+
 
 export const STAGES = ["Tu perfil", "Tu CV", "La entrevista"] as const;
 export type Stage = (typeof STAGES)[number];
@@ -16,7 +15,7 @@ export interface Resource {
   minutes: number;
 }
 
-export const PREMIUM_PRICE = "S/ 25 al mes"; // supuesto de precio del equipo
+export const PREMIUM_PRICE = "S/ 25 al mes"; //precio del equipo
 
 export const STAGE_INFO: Record<Stage, string> = {
   "Tu perfil": "Aprende a contar quién eres y qué puedes aportar.",
