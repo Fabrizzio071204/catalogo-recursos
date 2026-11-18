@@ -35,7 +35,7 @@ export default function App() {
   return (
     <>
       <header className="wrap top">
-        <a className="brand" href="#/">Nombre del proyecto</a>
+        <a className="brand" href="#/">Bienvenid@ a TalentPitch!</a>
         <nav className="menu">
           {nav("#/", "", "Inicio")}
           {nav("#/catalogo", "catalogo", "Catálogo")}
@@ -44,7 +44,7 @@ export default function App() {
         <a className="btn small" href="#/premium">Lista de espera</a>
       </header>
       <main>{page}</main>
-      <footer className="wrap foot">Demo del proyecto en proceso zopa me olvide preguntarte el nombre del proyecto que decidieron XD por fa agreguenlo.</footer>
+      <footer className="wrap foot">TalentPitch - Primera versión demostrativa.</footer>
     </>
   );
 }
